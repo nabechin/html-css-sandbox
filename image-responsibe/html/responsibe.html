@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <title>image responsive</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1200px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <picture>
+      <source media="(max-width: 800px)" srcset="../image/IMG_4492_640.JPG" />
+      <source media="(min-width: 801px)" srcset="../image/IMG_4492_800.JPG" />
+      <img src="../image/IMG_4492_800.JPG" alt="焚き火" />
+    </picture>
+  </body>
+</html>
